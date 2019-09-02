@@ -16,13 +16,13 @@ end
 
 def find_min_value(array)
       counter =0
-  max =0
+  min =0
   while counter < array.length do
-    if max > array[counter]
-      max = array[counter]
+    if min > array[counter]
+      min = array[counter]
     end
      counter +=1
   end
-  return max
+  return min
 end
 end
